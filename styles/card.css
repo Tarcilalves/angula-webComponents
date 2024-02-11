@@ -1,0 +1,37 @@
+
+.card{    
+    display: flex;
+    border: 1px solid var(--backgroundComOpacidade);    
+    max-width: 820px;
+    gap: 1rem;
+    align-self: center;
+    margin: 3rem;
+    padding: 2rem;
+    box-shadow: 9px 9px 20px 0px var(--backgroundComOpacidade);
+}
+
+
+.card__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    font-weight: 500;
+}
+.titulo{
+    font-weight: 700;
+    font-size: 1.8rem;
+    padding: .5rem 0;
+}
+.text{
+    color: var(--azulClaro);
+}
+
+
+
+.asset-vader{
+    max-width: 100%;
+    max-height: 200px;
+}
+

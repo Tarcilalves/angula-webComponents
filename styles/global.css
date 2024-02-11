@@ -1,0 +1,19 @@
+@import url("card.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    
+    /* considera a borda como o tamanho total para facilitar o atributos de tamanhos com max-widht*/
+    box-sizing: border-box;
+}
+
+:root{
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza: #a5a6af;
+    --azulClaro:    #86939e;
+    --backgroundComOpacidade: rgba(230, 230, 230, 0.712);
+}
+
